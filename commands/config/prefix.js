@@ -1,7 +1,7 @@
   
 const Discord = require('discord.js');
 
-
+const db = require('wio.db')
 
 module.exports = {
     config: {
@@ -13,9 +13,9 @@ module.exports = {
     },
     run: async (client, message, args) => {
       if (!message.member.hasPermission("MANAGE_GUILD")) return message.channel.send("You Don't Have Enough Permission To Execute This Command - Manage Server");
-    
+    const { prefix } = require('../../config.js')
     let Prefix = await db.fetch(`Prefix_${message.guild.id}`);
-    if (!Prefix) Prefix = Default_Prefix;
+    if (!Prefix) Prefix = prefix;
     
     const NewPrefix = args.join(" ");
     
