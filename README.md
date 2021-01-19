@@ -1,6 +1,8 @@
 ### NQN 2
 A BOT WITH FEATURES LIKE NQN
-
+## NOTE
+- Contributors are always welcome
+- Fell free to create a pull request
 ## INSTRUCTION
 - Clone the repo using ```git clone https://github.com/Kasakshi-Hatake/Bot-Like-Nqn.git ```
 - Rename config.js.example to config.js
@@ -8,4 +10,4 @@ A BOT WITH FEATURES LIKE NQN
 - Install all the packages using ```
 npm i ```
 
-## STAR THE REPO OR BAD AND CONTRIBUTERS ARE ALWAYS WELCOME
+## STAR THE REPO OR BAD 
