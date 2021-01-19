@@ -25,3 +25,5 @@ module.exports = {
         };
 
         return message.channel.send(All.join("\n"), { split: { char: '\n' } })
+    }
+}
