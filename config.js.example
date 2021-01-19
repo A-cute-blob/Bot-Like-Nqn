@@ -1,0 +1,3 @@
+exports.prefix = '' //Bot prefix
+exports.token = "" //bot token
+exports.support = "" //discord support server
