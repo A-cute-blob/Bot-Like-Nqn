@@ -8,4 +8,4 @@ A BOT WITH FEATURES LIKE NQN
 - Install all the packages using ```
 npm i ```
 
-## STAR THE REPO OR BAD
+## STAR THE REPO OR BAD AND CONTRIBUTERS ARE ALWAYS WELCOME
