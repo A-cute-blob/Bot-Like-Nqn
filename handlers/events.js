@@ -9,5 +9,5 @@ module.exports = (client) => {
             client.on(eventName, events.bind(null,client));
         };
     };
-    ['client', 'guild'].forEach(events => load(events));
+    [ 'guild'].forEach(events => load(events));
 };
