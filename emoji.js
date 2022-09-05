@@ -2,7 +2,7 @@ const { Client } = require('discord.js')
 const client = new Client()
 const config = require('./config.js')
 client.on('ready', () => {
-console.log(`[READY](https://discord.com/users/${client.user.id}) ${client.user.tag}
+console.log(`[READY](https://discord.com/users/${client.user.id}) ${client.user.tag}`)
 });
 ["aliases", "commands"].forEach(cmd => client[cmd] = new Discord.Collection());
 ["console", "command", "event"].forEach(events => require(`./handlers/${events}`)(client));
